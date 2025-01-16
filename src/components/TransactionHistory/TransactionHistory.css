@@ -1,0 +1,40 @@
+.transaction-history {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+  .table-header {
+    display: table-row;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .table-row {
+    display: table-row;
+    text-align: center;
+    padding: 0 auto;
+  }
+  
+  .table-row.even {
+    background-color: #f9f9f9;
+  }
+  
+  .table-row.odd {
+    background-color: #e6e6e6;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    border: 2px solid #000000;
+    padding: 12px;
+    vertical-align:middle
+  }
+
+  
